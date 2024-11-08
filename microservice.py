@@ -16,7 +16,7 @@ while True:
 
     #  Wait for request from client, which zmq turns into a dictionary.
     data = socket.recv_json()
-    print("Received reply from server")
+    print("Received JSON string from server")
     print(data)
 
     # Assigns a JSON string to a variable.
